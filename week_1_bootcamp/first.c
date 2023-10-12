@@ -2,10 +2,13 @@
 
 int main()
 {
-    float a, b, A;
-    //A is area
-    scanf("%f %f", &a,&b);
-    A=a*b;
-    printf("%f",A);
+    int a; 
+
+    for(a=1;a<20;a+=2)
+    {
+         printf("a is equal to %d\n", a);
+    
+    }
+ 
     return 0;
 }
